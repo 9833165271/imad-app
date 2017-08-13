@@ -14,7 +14,7 @@ app.get('/ui/style.css', function (req, res) {
 });
 
 app.get('/ui/madi.png', function (req, res) {
-  res.sendFile(path.join(__dirname, 'ui', 'https://www.google.co.in/url?sa=i&rct=j&q=&esrc=s&source=images&cd=&cad=rja&uact=8&ved=0ahUKEwiapda48NTVAhWHK48KHXalDKEQjRwIBw&url=https%3A%2F%2Fwww.pexels.com%2Fsearch%2Fflower%2F&psig=AFQjCNEAfXulakok9kXERv2Rq4CTv4qWug&ust=1502736662008937'));
+  res.sendFile(path.join(__dirname, 'ui', 'photo_1.jpg'));
 });
 
 
